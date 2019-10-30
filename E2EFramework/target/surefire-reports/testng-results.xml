@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a herf='C:\Users\Lenovo\Desktop\Automation testing course\E2EFramework\src\main\java\ScreenshotFailure\browserInvoke_22_10_2019_03_15_39.png'> <img src ='C:\Users\Lenovo\Desktop\Automation testing course\E2EFramework\src\main\java\ScreenshotFailure\browserInvoke_22_10_2019_03_15_39.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-10-22T15:14:32 EDT" name="Suite" finished-at="2019-10-22T15:15:40 EDT" duration-ms="67816">
+    <groups>
+    </groups>
+    <test started-at="2019-10-22T15:14:32 EDT" name="Navigation" finished-at="2019-10-22T15:14:52 EDT" duration-ms="20056">
+      <class name="Academy.validatingNavigationbar">
+        <test-method is-config="true" signature="open()[pri:0, instance:Academy.validatingNavigationbar@41294f8]" started-at="2019-10-22T15:14:32 EDT" name="open" finished-at="2019-10-22T15:14:52 EDT" duration-ms="19747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="browserInvoke()[pri:0, instance:Academy.validatingNavigationbar@41294f8]" started-at="2019-10-22T15:14:52 EDT" name="browserInvoke" finished-at="2019-10-22T15:14:52 EDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Academy.validatingNavigationbar@41294f8]" started-at="2019-10-22T15:14:52 EDT" name="close" finished-at="2019-10-22T15:14:52 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.validatingNavigationbar -->
+    </test> <!-- Navigation -->
+    <test started-at="2019-10-22T15:14:52 EDT" name="resource" finished-at="2019-10-22T15:14:52 EDT" duration-ms="1">
+    </test> <!-- resource -->
+    <test started-at="2019-10-22T15:14:52 EDT" name="Homepage" finished-at="2019-10-22T15:15:19 EDT" duration-ms="26548">
+      <class name="Academy.homepage">
+        <test-method is-config="true" signature="open()[pri:0, instance:Academy.homepage@74a6f9c1]" started-at="2019-10-22T15:14:52 EDT" name="open" finished-at="2019-10-22T15:14:55 EDT" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="browserInvoke(java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@74a6f9c1]" started-at="2019-10-22T15:14:55 EDT" name="browserInvoke" data-provider="getData" finished-at="2019-10-22T15:15:13 EDT" duration-ms="17920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhanu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[psd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method signature="browserInvoke(java.lang.String, java.lang.String)[pri:0, instance:Academy.homepage@74a6f9c1]" started-at="2019-10-22T15:15:13 EDT" name="browserInvoke" data-provider="getData" finished-at="2019-10-22T15:15:19 EDT" duration-ms="5909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Academy.homepage@74a6f9c1]" started-at="2019-10-22T15:15:19 EDT" name="close" finished-at="2019-10-22T15:15:19 EDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.homepage -->
+    </test> <!-- Homepage -->
+    <test started-at="2019-10-22T15:15:19 EDT" name="titlevalidate" finished-at="2019-10-22T15:15:40 EDT" duration-ms="20882">
+      <class name="Academy.validatingTitle">
+        <test-method is-config="true" signature="open()[pri:0, instance:Academy.validatingTitle@1838ccb8]" started-at="2019-10-22T15:15:19 EDT" name="open" finished-at="2019-10-22T15:15:39 EDT" duration-ms="20139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="browserInvoke()[pri:0, instance:Academy.validatingTitle@1838ccb8]" started-at="2019-10-22T15:15:39 EDT" name="browserInvoke" finished-at="2019-10-22T15:15:39 EDT" duration-ms="193" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURD COURSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURD COURSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Academy.validatingTitle.browserInvoke(validatingTitle.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a herf='C:\Users\Lenovo\Desktop\Automation testing course\E2EFramework\src\main\java\ScreenshotFailure\browserInvoke_22_10_2019_03_15_39.png'> <img src ='C:\Users\Lenovo\Desktop\Automation testing course\E2EFramework\src\main\java\ScreenshotFailure\browserInvoke_22_10_2019_03_15_39.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Academy.validatingTitle@1838ccb8]" started-at="2019-10-22T15:15:40 EDT" name="close" finished-at="2019-10-22T15:15:40 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.validatingTitle -->
+    </test> <!-- titlevalidate -->
+  </suite> <!-- Suite -->
+</testng-results>
