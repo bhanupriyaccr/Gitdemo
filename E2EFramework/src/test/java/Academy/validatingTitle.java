@@ -35,6 +35,7 @@ public class validatingTitle extends base {
 		System.out.println(la.getTitle().getText());
 		Assert.assertEquals(la.getTitle().getText(), "FEATURD COURSES");
 		log.info("checked title");
+		System.out.println("title checked");
 }
 	@AfterTest
 	public void close() {
